@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 const App: React.FC = () => {
+  const [count, setCount] = useState(3);
+  console.log(count);
   return (
     <div className="App">
       <header className="App-header">
